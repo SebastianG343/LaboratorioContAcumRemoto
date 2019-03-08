@@ -1,5 +1,6 @@
 a=int(input("Digite un numero"))
-for i in range(1,a+1,1):
-    print(i)
-    x=a/i
-    print(x)
+b=int(input("Digite otro numero"))
+if a%b==0:
+    print(a,"si es divisible por",b)
+else:
+    print(a,"no es divisible por",b)
